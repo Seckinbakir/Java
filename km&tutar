@@ -1,0 +1,18 @@
+
+import java.util.Scanner;
+
+
+public class kmtutaar {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("araç km başına kaç kurus yakıyor ? (ör: 0,40): ");
+        double kurus = scanner.nextDouble();
+        System.out.print("araç kaç km gitti ? : ");
+        int km = scanner.nextInt();
+        
+        System.out.println ("ödenecek tutar: " +(kurus*km)  ) ;
+        
+    }
+}
+ 
