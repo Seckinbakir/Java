@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+
+public class test {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        int a ;
+        int b ;
+        System.out.println("uzunluk 1: ");
+        a = scanner.nextInt();
+        
+        System.out.println("uzunluk 2 : ");
+        b = scanner.nextInt(); 
+        
+        double h = Math.sqrt(a * a + b * b) ;
+        System.out.println(" hipotenüs: " + h);
+        
+        
+    }
+    
+    
+}
