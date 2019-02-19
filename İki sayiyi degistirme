@@ -1,0 +1,29 @@
+
+import java.util.Scanner;
+
+
+
+public class test {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner (System.in);
+        int birinci_sayi;
+        int ikinci_sayi;
+        
+                System.out.println("degismeden önceki degerler: ");
+
+        System.out.print("birinci sayi: ");
+        birinci_sayi = scanner.nextInt();
+       
+        System.out.print("ikinci sayi: ");
+        ikinci_sayi = scanner.nextInt();
+       
+        System.out.println("degismeden sonraki degerler: ");
+        
+        System.out.println("Birinci sayi: " + birinci_sayi + "  ikinci_ sayi :" + ikinci_sayi);
+      
+        int temp = birinci_sayi;
+        birinci_sayi = ikinci_sayi;
+        ikinci_sayi = temp;
+        
+        
