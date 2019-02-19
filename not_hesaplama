@@ -1,0 +1,34 @@
+
+import java.util.Scanner;
+
+
+public class main
+
+{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner (System.in) ;
+        System.out.println("Notunuzu girin :");
+        int not = scanner.nextInt();
+        
+        if (not >=185) {
+            System.out.println("öyle bi not yok hacı");
+            
+        }
+        else if ( not >= 85 ) {
+        System.out.println("tebrikler AA ");
+          }
+        else if ( not >= 70) {
+        System.out.println("nice hocam");
+          }
+        else if (not >=50) {
+            System.out.println("hoca geçirdi");
+            
+        }
+        
+        else {
+        System.out.println("gg hocam");
+    }
+    
+    
+}
+}
