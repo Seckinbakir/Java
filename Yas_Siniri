@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+
+
+public class yass {
+    public static void main(String[] args) {
+        
+        // kullanıcıdan veri isteme
+        Scanner scanner = new Scanner (System.in);
+        
+        System.out.println("lütfen yaşınızı girin");
+        
+        int sayi = scanner.nextInt();
+        // koşullar 
+        if (sayi <18 ){
+            System.out.println("içeri giremezsiniz ...");
+        }
+        
+        else {
+            System.out.println("buyursunlar..");
+        }
+        
+    }
+    
+}
